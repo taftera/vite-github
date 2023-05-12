@@ -39,7 +39,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build Project
-        uses: npm run build
+        run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
